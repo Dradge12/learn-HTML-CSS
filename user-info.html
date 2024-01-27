@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user-info</title>
+</head>
+
+<body>
+    <form action="./output.html" method="GET">
+        <div>
+            <div>
+                <div><label for="name">Enter your name </label></div>
+                <div> <input id="name" type="text"></div>
+
+            </div>
+            <div>
+                <div><label for="name">Enter your surname </label></div>
+                <div> <input id="surname" type="text"></div>
+
+            </div>
+
+        </div>
+        <br>
+        <div>
+            <label for="start">Start date</label>
+        </div>
+
+        <div>
+            <input type="date" id="start" name="trip-start" value="2000-01-01" min="1920-01-01" max="2024-01-01">
+        </div>
+        <br>
+        <div>
+            <label for="range">Your age</label>
+            <input type="range" id="your age">
+        </div>
+        <br>
+        <div>
+
+            <div>
+                <input name="gender" volue="female" id="female" type="radio" />
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input name="gender" volue="male" id="male" type="radio" />
+                <label for="Male">Male</label>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="email">Your email</label>
+            <div>
+                <input name="email" id="email" type="email" required />
+            </div>
+        </div>
+        <br>
+        <div>
+            <div><label for="number">Your salary</label></div>
+            <div><input type="number"></div>
+        </div>
+        <div>
+            <div><label for="file">Your photo</label></div>
+            <div><input type="file" id="file"></div>
+        </div>
+        <div>
+            <label for="checkbox">Are you agree?</label>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox" name="Are you agree?">
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+
+        </div>
+        <div>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
