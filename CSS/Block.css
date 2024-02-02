@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    /*flexbox для центрирования по горизонтали и вертикали*/
+    justify-content: center;
+    /*центрирование по горизонтали*/
+    align-items: start;
+    /*центрирование по вертикали*/
+    height: 100vh;
+    /*высота*/
+    margin: 10;
+    /*отступы*/
+    text-align: center;
+    /*выравнивание текста по центру*/
+}
+
+
+
+input {
+    display: block;
+    /*размещение метки на новой строке*/
+    margin-top: 5px;
+    /*отступ между меткой и полем ввода*/
+    width: 250px;
+    /*ширина поля ввода*/
+    border: 5px solid rgb(34, 9, 34);
+    box-shadow: 0 0 10px rgba(42, 4, 44, 0.3);
+    background-color: rgb(19, 1, 15);
+}
+
+label {
+    display: block;
+    /*размещение поля ввода на новой строке*/
+    background-color: rgb (19, 1, 15);
+    color: aliceblue
+}
+
+
+
+main {
+    border: 6px solid rgb(85, 27, 113);
+    /*устанавливаем рамку*/
+    padding: 20px;
+    /*добавляем внутренние отступы*/
+
+
+}
+
+* {
+    background-color: rgb(40, 13, 75)
+}
+
+
+button {
+    background-color: rgb(77, 0, 149);
+}
+
+h1 {
+    color: white
+}
