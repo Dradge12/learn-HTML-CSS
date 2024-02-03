@@ -24,14 +24,15 @@ input {
     /*ширина поля ввода*/
     border: 5px solid rgb(34, 9, 34);
     box-shadow: 0 0 10px rgba(42, 4, 44, 0.3);
-    background-color: rgb(19, 1, 15);
+    background-color: rgb(255, 255, 255);
 }
 
 label {
     display: block;
     /*размещение поля ввода на новой строке*/
     background-color: rgb (19, 1, 15);
-    color: aliceblue
+    color: aliceblue;
+    font-family: cursive;
 }
 
 
@@ -42,7 +43,6 @@ main {
     padding: 20px;
     /*добавляем внутренние отступы*/
 
-
 }
 
 * {
@@ -51,9 +51,32 @@ main {
 
 
 button {
+
+    color: aliceblue;
     background-color: rgb(77, 0, 149);
+    border-radius: 8px;
+    /*закруглённые углы*/
+    cursor: cell;
+    /*изменение курсора при наведении*/
+    width: 150px;
+    font-weight: 1000;
+    /*жирность шрифта*/
 }
 
 h1 {
-    color: white
+    color: white;
+    font-family: cursive;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*ширина поля ввода*/
+    background-color: rgb(39, 24, 53);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
 }
