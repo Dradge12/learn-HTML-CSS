@@ -1,0 +1,52 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url(./M5.png);
+    background-repeat: no-repeat;
+    /*чтоб картинка была всегда только на заднем плане по умолчанию*/
+    background-size: cover;
+    margin: 0;
+    /* Убирает отступы по умолчанию */
+    padding: 0;
+    /* Убирает внутренние отступы по умолчанию */
+    border: none;
+    /* Убирает рамки */
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.left-image {
+    flex: none;
+    /* Отменяем растягивание, чтобы изображения не занимали всю доступную ширину */
+    margin-top: -10px;
+    /* Поднимаем изображения над базовой линией текста*/
+}
+
+.right-image {
+    flex: none;
+    /* Отменяем растягивание, чтобы изображения не занимали всю доступную ширину */
+    margin-top: -10px;
+    /* Поднимаем изображения над базовой линией текста*/
+}
+
+.center-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.center-text {
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 70px;
+}
