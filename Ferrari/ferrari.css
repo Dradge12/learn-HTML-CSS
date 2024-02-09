@@ -3,12 +3,17 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 120vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    background: url("./908bf43d530ddf25e5a290c3a83d1828.jpg") no-repeat center center/cover;
+    z-index: -2;
 }
 
-img {
-    display: block;
+
+
+.back {
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -20,9 +25,6 @@ img {
 }
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     opacity: 100;
     /*делаем фон header`a прозрачным */
@@ -36,17 +38,8 @@ header {
 
 }
 
-main {
-    position: absolute;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-}
-
 h1 {
-    position: absolute;
+    font-size: 80px;
     text-align: center;
     color: #FFF;
     margin: 150px;
@@ -64,7 +57,9 @@ b {
     width: 100%;
     height: 60vh;
     background: linear-gradient(180deg, #1E1E1E 0%, rgba(30, 30, 30, 0) 100%);
-    z-index: 1;
+    z-index: -1;
+    left: 0;
+    top: 0;
 }
 
 p {
@@ -77,79 +72,37 @@ nav {
 }
 
 .container {
+    display: flex;
     position: relative;
     text-align: center;
     justify-content: center;
     /*по горизонтали*/
     align-items: flex-end;
     /*выравнивание по нижнему краю*/
-    height: 200px;
-    align-self: flex-end;
-    top: 50px;
-    /*опускаем контейнер вниз*/
-    flex-direction: row;
-    /*направление элементов в ряд*/
-    width: 500%;
+    gap: 16px;
+    margin-top: auto;
+    /*прибивает к низу страницы*/
+    padding-bottom: 60px;
+    top: 150px;
 }
 
-.block1 {
-    position: absolute;
-    top: -70px;
-    /*отступ снизу*/
-    left: 50%;
-    /*располагаем в центр по горизонтали*/
-    height: 250px;
-    width: 18%;
-    z-index: 3;
-    margin-left: 170px;
-    margin-top: 130px;
+.block {
+    padding: 16px;
+    width: 280px;
+    height: 240px;
 }
 
-.block2 {
-    position: absolute;
-    top: -70px;
-    /*отступ снизу*/
-    left: 50%;
-    /*располагаем в центр по горизонтали*/
-    width: 18%;
-    height: 250px;
-    z-index: 3;
-    margin-left: -125px;
-    /*отступ*/
-    margin-top: 130px;
+.text {
+    color: #283646;
+    font-size: 70px;
 }
 
-.block3 {
-    position: absolute;
-    top: -70px;
-    /*отступ снизу*/
-    left: 50%;
-    /*располагаем в центр по горизонтали*/
-    width: 18%;
-    height: 250px;
-    z-index: 3;
-    margin-left: -420px;
-    margin-top: 130px;
-    text-align: left;
-    line-height: 70px;
+h3 {
+    font-size: 15px;
+    margin-bottom: -20px;
+    margin-right: 170px;
 }
 
-#textblock3 {
-    position: absolute;
-    margin-top: -40px;
-    font-size: 20px;
-}
-
-#textblock2 {
-    margin-right: 10%;
-    position: absolute;
-    margin-top: -10px;
-    font-size: 20px;
-}
-
-#textblock1 {
-    margin-top: 10px;
-    position: absolute;
-    margin-top: -30px;
-    font-size: 20px;
+h2 {
+    margin-right: 70px;
 }
