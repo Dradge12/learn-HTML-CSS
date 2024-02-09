@@ -53,16 +53,16 @@ body {
 }
 
 .maintext {
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 240px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .ordernow {
     border-radius: 16px;
     padding: 14px 39px 14px 39px;
     background-color: aliceblue;
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 80px;
     margin-top: 30px;
     border: 1px solid white;
@@ -72,7 +72,7 @@ body {
 .features {
     border-radius: 16px;
     padding: 14px 39px 14px 39px;
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 70px;
     margin-top: -40px;
     background-color: rgba(0, 0, 0, 0);
@@ -83,79 +83,44 @@ body {
 
 .mainfeatures {
     display: flex;
-    text-align: left;
-    padding: 150px;
-    justify-content: space-between;
-    /* Распределение элементов по горизонтали */
-    width: 800px;
-    margin: 10px;
+    Width: 573px;
+    Height: 100px;
+    Top: 885px;
+    Left: 98px;
+    margin-left: 90px;
+    margin-top: 170px;
 }
 
-span {
-    display: flex;
-    flex-direction: column;
-    /*отображение элементов в колонке*/
-    align-items: center;
+.inform {
+    text-align: center;
     font-size: 17px;
+    margin-right: 40px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: 20px;
 }
 
 b {
     color: #E73E3D;
 }
 
-.feature {
-    flex: 1;
-    text-align: center;
-}
-
 .buttons {
-    position: relative;
     display: flex;
-    gap: 10px;
-
+    text-align: center;
+    margin-left: 860px;
+    margin-top: -60px;
 }
 
-#Comp {
-    position: absolute;
-    border-radius: 16px;
-    font-size: 17px;
-    Width: 178px;
-    Height: 50px;
-    bottom: 200px;
-    right: 600px;
-    flex: 1;
-    cursor: pointer;
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
+.CMC {
+    margin-left: 5px;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: rgba(255, 0, 0, 0);
     color: aliceblue;
-}
-
-#M50 {
-    position: absolute;
-    border-radius: 16px;
-    font-size: 17px;
-    Width: 293px;
-    Height: 50px;
-    bottom: 200px;
-    right: 300px;
-    flex: 1;
     cursor: pointer;
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    color: aliceblue;
-}
-
-#CS {
-    position: absolute;
-    border-radius: 16px;
-    font-size: 17px;
-    Width: 100px;
-    Height: 50px;
-    bottom: 200px;
-    right: 190px;
-    flex: 1;
-    cursor: pointer;
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    color: aliceblue;
 }
