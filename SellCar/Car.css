@@ -1,19 +1,52 @@
-.logo1 {
-    margin-left: 10%;
-    margin-right: 25%;
-}
-
 header {
-    font-family: "Public Sans", monospace;
+    display: flex;
+    position: absolute;
+    Width: 1, 920px;
+    Height: 103px;
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    display: flex;
     align-items: center;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(100, 116, 139, 0.12),
+        0 4px 6px -2px rgba(100, 116, 139, 0.05);
 }
 
-span {
-    margin-right: 600px;
+.nav {
+    display: flex;
+    align-items: center;
+    width: 1900px;
+    height: 103px;
+    margin-left: 280px;
+    margin-top: 50px;
+    gap: 36px;
+}
 
+.navigation {
+    margin-right: 30px;
+}
+
+.FW {
+    position: absolute;
+    padding: 0px, 0px, 36px, 0px;
+    width: 700px;
+    height: 400px;
+    margin-top: 700px;
+    margin-left: 110px;
+}
+
+.dol {
+    margin-left: 40px;
+}
+
+.fixed {
+    position: absolute;
+    gap: 15px;
+    margin-top: 350px;
+    margin-left: 850px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 26px;
 }
