@@ -41,7 +41,7 @@ header {
 
 .fixed {
     position: absolute;
-    margin-top: 630px;
+    margin-top: 680px;
     margin-left: 900px;
 }
 
@@ -132,4 +132,28 @@ input {
     margin-top: 13px;
     font-size: 15px;
     color: white;
+}
+
+.main {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    left: 180px;
+    top: 810px;
+
+}
+
+.Overview {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    left: 180px;
+    top: 720px;
+
+}
+
+.bodystyle {
+    display: flex;
+    width: 92px;
+    height: 56px;
 }
